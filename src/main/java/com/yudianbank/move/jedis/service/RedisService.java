@@ -11,5 +11,5 @@ public interface RedisService {
 
     Object keys();
 
-    void move(String key);
+    void move();
 }
